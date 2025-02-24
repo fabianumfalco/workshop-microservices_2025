@@ -2,7 +2,7 @@
 
 ## Atualização para Compatibilidade com Spring Boot 3.4.3
 
-Este projeto consiste na atualização do código-fonte (sources) do Workshop Microservices, originalmente desenvolvido em 2017 e disponível no repositório workshop-microservices. O objetivo foi modernizar o código para torná-lo compatível com a versão Spring Boot 3.4.3, garantindo o funcionamento com as bibliotecas e práticas mais recentes do ecossistema Spring.
+Este projeto consiste na atualização do código-fonte (sources) do Workshop Microservices, originalmente desenvolvido em 2017 e disponível no repositório workshop-microservices (https://github.com/rcandidosilva/workshop-microservices). O objetivo foi modernizar o código para torná-lo compatível com a versão Spring Boot 3.4.3, garantindo o funcionamento com as bibliotecas e práticas mais recentes do ecossistema Spring.
 
 ## Sobre o Workshop Microservices (2017):
 O Workshop Microservices foi criado para demonstrar conceitos e práticas de desenvolvimento de microsserviços, abordando tópicos como:
