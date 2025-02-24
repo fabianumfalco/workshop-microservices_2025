@@ -1,0 +1,30 @@
+server:
+  port: ${PORT:8081}
+  
+logging:
+  level:
+    cloud.lab01: debug
+
+app:
+  config:
+    property:
+      string: Mofified String Property
+      long: 100
+      boolean: true
+      random: ${random.long}
+      env: Environment Property
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+app:
+  config:
+    property:
+      string: DEV - String Property
+      long: 200
+      boolean: false
+      random: ${random.long}
+      env: DEV - Environment Property
