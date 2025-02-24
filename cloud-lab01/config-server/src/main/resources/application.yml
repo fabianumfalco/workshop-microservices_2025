@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env
+  endpoint:
+    env:
+      access: "READ_ONLY"  # Em vez de "enabled: true"
+      show-values: ALWAYS 
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///home/ffalcao/git/tst_pessoal/cloud-labs/cloud-lab01/config-repo
+          default-label: master 
