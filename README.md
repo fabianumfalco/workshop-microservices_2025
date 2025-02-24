@@ -17,7 +17,7 @@ Para mais detalhes sobre o workshop original, consulte o README.md (https://gith
 
 # Principais Atualizações Realizadas:
 - Migração para Spring Boot 3.4.3 e Java 21.
-- Substituição de bibliotecas depreciadas, como o Spring Cloud Netflix Eureka e Hystrix, por alternativas modernas.
+- Substituição de bibliotecas e APIs depreciadas do Spring Boot e Spring Cloud por alternativas modernas.
 - Atualização de dependências para versões compatíveis com Spring Boot 3.x.
 - Ajustes no código para refletir as mudanças nas APIs do Spring Framework e Spring Cloud.
 - Correção de problemas de compatibilidade e testes para garantir o funcionamento adequado.
